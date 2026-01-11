@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #292828;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.contact {
+  border-bottom: 1px solid white;
+}
+
+
+.title {
+  font-size: 160px;
+  font-weight: bold;
+  margin-left: 85px;
+  padding: 40px 60px;
+  line-height: 1;
+  position: relative;
+  z-index: 2; 
+}
+
+
+.container {
+  padding: 80px 60px;
+  background-color: black;
+  margin-top: -120px;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.row div {
+  max-width: 150px;
+  background-color: black;
+
+}
+
+.time, .day {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h3 {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
