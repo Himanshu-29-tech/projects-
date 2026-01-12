@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+
+body{
+  min-height: 100vh;
+  background-image:url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsfGVufDB8fDB8fHww");
+  background-size: 1465px 950px;
+  background-repeat: no-repeat;           
+  background-position: center;    
+  color: white;
+  border-color: transparent white;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+
+.logo{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  font-size: 16px;
+}
+
+.menu li{
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.menu li:hover{
+  text-decoration: underline;
+  background-color: black;
+}
+
+.contact{
+  border-bottom: 1px solid white;
+}
+
+
+.container{
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+h1{
+  font-size: 90px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+h1 span{
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+p{
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+
+.btn{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 22px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.btn:hover{
+  background: white;
+  color: black;
+}
+
+
+.scroll{
+  font-size: 16px;
+  position: absolute;
+  bottom: 30px;
+}
